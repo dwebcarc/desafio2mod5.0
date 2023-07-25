@@ -1,0 +1,59 @@
+<!-- Header -->
+<header id="header">
+	<h1>Galeria de Imagenes</h1>
+
+	<p>Comida Saludable para su Día a Día <a href="/">Volver al Home</a></p>
+	<ul class="icons">
+		<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+		<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+		<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+		<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+	</ul>
+</header>
+
+<!-- Thumbnail -->
+<section id="thumbnails">
+	<article>
+		<%= link_to(asset_path("fulls/01.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/01')%>
+				<% end %>
+					<h2>Diam tempus accumsan</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</article>
+	<article>
+		<%= link_to(asset_path("fulls/02.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/02')%>
+				<% end %>
+					<h2>Vivamus convallis libero</h2>
+					<p>Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
+	</article>
+	<article>
+		<%= link_to(asset_path("fulls/03.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/03')%>
+				<% end %>
+					<h2>Nec accumsan enim felis</h2>
+					<p>Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus.</p>
+	</article>
+	<article>
+		<%= link_to(asset_path("fulls/04.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/04')%>
+				<% end %>
+					<h2>Donec maximus nisi eget</h2>
+					<p>Tristique in nulla vel congue. Sed sociis natoque parturient nascetur.</p>
+	</article>
+	<article>
+		<%= link_to(asset_path("fulls/05.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/05')%>
+				<% end %>
+					<h2>Nullam vitae nunc vulputate</h2>
+					<p>In pellentesque cursus velit id posuere. Donec vehicula nulla.</p>
+	</article>
+	<article>
+		<%= link_to(asset_path("fulls/06.jpg"), class: "thumbnail" ) do %>
+			<%= image_tag('thumbs/06')%>
+				<% end %>
+					<h2>Phasellus magna faucibus</h2>
+					<p>Nulla dignissim libero maximus tellus varius dictum ut posuere magna.</p>
+	</article>
+
+</section>
